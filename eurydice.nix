@@ -164,6 +164,7 @@ in {
 		liam.isNormalUser = true;
 		enaya.isNormalUser = true;
 		ibra.isNormalUser = true;
+		dlars.isNormalUser = true;
 
 		jellyfin = {
 			extraGroups = [ "jellyfin" "video" ];
@@ -190,6 +191,7 @@ in {
 					("*/05 * * * * kryddan ${update-keys'} ErikOrtenberg")
 					("*/05 * * * * koko ${update-keys'} KokoRobinn")
 					("*/05 * * * * ibra ${update-keys'} FlySlime")
+					("*/05 * * * * ibra ${update-keys'} ICA-Maxi-Boi")
 
 					("*/05 * * * * root ${update-website}/bin/update-website")
 					("* * * * *    root ${update-status}/bin/update-status")
